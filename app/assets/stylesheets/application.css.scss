@@ -22,10 +22,10 @@
 
 /* Typography styles */
 h1, h2, h3 {
-  font-family: 'Open Sans', sans-serif;
+  font-family: 'Roboto', sans-serif;
 }
 
-/* Background Gradient */
+/* Homepage Styles */
 .home-callout {
   /* Gradient provided by @_igosh at uigradients.com*/
   background: #43C6AC;  /* fallback for old browsers */
@@ -45,7 +45,7 @@ h1, h2, h3 {
 }
 
 .navbar-brand {
-  font-family: 'Open Sans', sans-serif;
+  font-family: 'Roboto', sans-serif;
   font-weight: 800;
 }
 
@@ -55,5 +55,16 @@ h1, h2, h3 {
   &:hover {
     color: white;
     opacity: .75;
+  }
+}
+
+.navbar-default .navbar-toggle .icon-bar {
+  background-color: white;
+}
+
+.navbar-default .navbar-toggle {
+  border: 2px solid white;
+  &:hover, &:focus {
+    background-color: #43C6AC;
   }
 }
