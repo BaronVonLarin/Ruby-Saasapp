@@ -9,7 +9,7 @@ ActionMailer::Base.smtp_settings = {
   :address        => ['MAILGUN_SMTP_SERVER'],
   :user_name      => ['MAILGUN_SMTP_LOGIN'],
   :password       => ['MAILGUN_SMTP_PASSWORD'],
-  :domain         => 'whispering-springs-51303.herokuapp.com/'
+  :domain         => 'whispering-springs-51303.herokuapp.com',
   :authentication => :plain,
 }
 ActionMailer::Base.delivery_method = :smtp
