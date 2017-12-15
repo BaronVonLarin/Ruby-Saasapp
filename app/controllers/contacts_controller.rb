@@ -17,7 +17,7 @@ class ContactsController < ApplicationController
       email = params[:contact][:email]
       body = params[:contact][:comments]
       # Plug variables into the contact mailer email method and send email
-      # DELIVER METHOD REMOVED DISABLED FOR DEBUGGING
+      # DELIVER METHOD DISABLED 
       ContactMailer.contact_email(name, email, body)
       # Store success message in flash hash
       # and redirect to the new action
